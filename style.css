@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Faster One', cursive;
+  line-height: 1.7;
+  background-image: url(images/background.jpg);
+  
+
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  padding: 20px 0px;
+
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: green;
+}
+
+.creative-container {
+  display: flex;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.creative-icon {
+  color: rgb(21, 184, 70);
+
+}
+
+.creative-text {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.head-container2 {
+
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.home,
+.about,
+.services,
+.work,
+.blog {
+  color: green;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 22px;
+}
+
+.contact-button-container {
+  padding-right: 50px;
+}
+
+.contact-btn {
+  background-color: green;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 5%;
+  letter-spacing: 2px;
+  font-family: 'Faster One', cursive;
+  font-weight: 800;
+  color: lightcoral;
+
+}
+
+.main-container {
+  display: flex;
+}
+
+.face-image-container {
+  margin-left: 50px;
+}
+
+.face-image {
+  width: 600px;
+}
+
+.main-text-box {
+  text-align: justify;
+  height: 500px;
+  width: 500px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.name {
+  color: blueviolet;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.profession {
+  color: blanchedalmond;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.aboutme {
+  color: darkorange;
+  margin-bottom: 5px;
+}
+
+.downloadcv-btn-container {
+  margin-top: 20px;
+}
+
+.download-btn {
+  padding: 4px 32px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5%;
+  margin-bottom: 100px;
+}
